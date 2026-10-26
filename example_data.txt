@@ -1,0 +1,14 @@
+#allocation weight, alpha weight, beta weight, target beta
+1, 0.3, 2, 0.8
+
+#desired allocations
+Large Value: 0.2, Large Growth: 0.4, Mid Blend: 0.1, Bond: 0.2, Small Growth: 0.1
+#Large Value: 0.2, Large Growth: 0.4, Small Growth: 0.1, Mid Blend: 0.1, Bond: 0.2
+
+#investments to consider (name, alpha, beta, category)
+ABC, -0.35, 0.6, Large Value
+DEF, 0.15, 1.2, Large Growth
+GHI, 0.2, 0.9, Small Growth
+JKL, -0.3, 0.8, Small Growth
+MNO, -0.7, 0.7, Mid Blend
+PQR, -1.2, 0.2, Bond
