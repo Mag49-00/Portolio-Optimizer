@@ -315,7 +315,7 @@ With this method of updating particles, particles are naturally drawn towards kn
 <img width="1600" height="600" alt="PS report" src="https://github.com/user-attachments/assets/4ae6fe69-39b8-4970-946c-08c8b701819f" />
 
 #### Text Output
-'''
+```
 -=Portfolio=-
 44.1% ABC, 55.9% DEF
 
@@ -331,7 +331,7 @@ Alpha: -0.07050849194225402, Beta: 0.9353898096692951
 Desired Beta: 0.8
 
 Error: 0.3619416915691168
-'''
+```
 
 ### Gradient Descent
 
@@ -339,7 +339,7 @@ Error: 0.3619416915691168
 <img width="1200" height="1000" alt="GD report" src="https://github.com/user-attachments/assets/76e6fc39-8b7d-4371-a39e-2260b503f9c0" />
 
 #### Text Output
-'''
+```
 -=Portfolio=-
 44.1% ABC, 55.9% DEF
 
@@ -355,7 +355,7 @@ Alpha: -0.07050030020816855, Beta: 0.9353996397501977
 Desired Beta: 0.8
 
 Error: 0.3619416908282187
-'''
+```
 
 ## Input Data
 This implementation takes a text file as its input. The first non-empty line must be the weights $W_a$, $W_α$, $W_β$, and target beta, $β_T$, as comma separated values. The second non-empty line must be the desired allocations, formatted as:
